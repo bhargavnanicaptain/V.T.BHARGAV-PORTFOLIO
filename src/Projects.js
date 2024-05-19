@@ -80,6 +80,8 @@ const Projects = () => {
             }
             .pro{
                 text-align:center;
+                color:#fca311;
+                font-size:4rem;
             }
             p{
                 text-align:justify;
@@ -309,6 +311,34 @@ const Projects = () => {
                 Overall, Guardians Galaxy Gateways is more than just a travel website—it's a portal to a universe of endless exploration and discovery. With its immersive design, interactive features, and personalized travel experiences, the website invites users to embark on an unforgettable cosmic journey unlike any other.
             </p>
             <a href='https://github.com/bhargavnanicaptain/Tourist-Site.git' target='_blank'><button className='btn'>GitHub Source Code</button></a> <a href='https://tourist-site-brown.vercel.app/'><button className='btn1'>Out Put</button></a>    <br />
+            <h3 ><i className='fa-regular fa-star'></i>PAYTM - CLONE </h3>
+            <p>
+                The "Paytm Clone" is a comprehensive web application designed to replicate the core functionalities of the Paytm platform, providing users with a seamless and interactive experience for online transactions, mobile recharges, bill payments, and more.
+            </p>
+            <p>
+                <strong>Key Features:</strong>
+            </p>
+            <ul>
+                <li><strong>User Registration and Login:</strong> Secure user authentication allowing new users to register and existing users to log in using their credentials.</li>
+                <li><strong>Mobile Recharge:</strong> Users can recharge their mobile numbers by selecting their operator, entering their mobile number, and specifying the recharge amount.</li>
+                <li><strong>Bill Payments:</strong> The application supports payment of various utility bills such as electricity, water, gas, and broadband, providing a convenient one-stop solution for users.</li>
+                <li><strong>Transaction History:</strong> Users can view a detailed history of their transactions, including the date, time, and status of each transaction.</li>
+            </ul>
+            <p>
+                <strong>Technical Details:</strong>
+            </p>
+            <ul>
+                <li><strong>HTML and CSS:</strong> The frontend of the application is built using HTML for structure and CSS for styling, providing a responsive and visually appealing user interface.</li>
+                <li><strong>JavaScript:</strong> Client-side scripting is implemented using JavaScript to add interactivity and dynamic behavior to the application, enhancing the user experience.</li>
+            </ul>
+            <p>
+                <strong>Conclusion:</strong>
+            </p>
+            <p>
+                The "Paytm Clone" web application showcases the use of HTML, CSS, and JavaScript to create a functional and user-friendly platform for online transactions and bill payments. It serves as an excellent project for web developers, providing practical experience in building modern web applications.
+            </p>
+            <a href='https://github.com/bhargavnanicaptain/PYTM-CLONE.git' target='_blank'><button class='btn'>GitHub Source Code</button></a> <a href='https://paytm-clone-lake.vercel.app/'><button className='btn1'>Out Put</button></a><br />
+            <br />
             <h3><i className="fa-regular fa-star"></i> QUIZ USING CORE JAVA </h3>
             <p>
                 The "Online Java Paper Test" is a dynamic application built using Java Swing for creating an interactive platform to conduct Java programming assessments. It provides users with a simulated environment to test their knowledge and understanding of Java concepts through a series of multiple-choice questions.
