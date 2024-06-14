@@ -27,6 +27,9 @@ const Resume = () => {
                     background-color: #f2f2f2;
                     padding: 20px;
                 }
+                .p{
+                    color : black;
+                }
                 
                 .container {
                     max-width: 800px;
@@ -35,6 +38,13 @@ const Resume = () => {
                     padding: 30px;
                     border-radius: 10px;
                     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+                .a2{
+                    text-decoration: none;
+                    color:blue;
+                }
+                .a2:hover{
+                    color:skyblue;
                 }
 
                 h1 {
@@ -315,15 +325,21 @@ const Resume = () => {
                 <div className="certifications section">
                     <h2>Certifications:</h2>
                     <ul>
-                        <li>JAVA SCRIPT for beginners in Skill Up by Simply Learn</li>
-                        <li>Fundamentals of JAVA in Tap Academy</li>
-                        <li>Fundamentals of Python in Tap Academy</li>
+                        <li>SQL BASIC - <a href='https://www.hackerrank.com/certificates/33d59ca3dbea' className='a2'>HackerRank</a></li>
+                        <li>CSS BASIC - <a href='https://www.hackerrank.com/certificates/a7f22e0723b0' className='a2'>HackerRank</a></li>
+                        <li>RESPONSIVE WEB DESIGN - <a href='https://freecodecamp.org/certification/fccda73044b-f7ea-45e9-ad84-c27de4fd4dfe/responsive-web-design' className='a2'>FREECODE CAMP</a></li>
+                        <li>JAVA SCRIPT for beginners - <a href='https://simpli-web.app.link/e/sjcBA6xf3Jb' className='a2'>SkillUp by SimplyLearn</a></li>
+
+
                     </ul>
                 </div>
 
                 <div className="awards section">
                     <h2>Awards:</h2>
-                    <p>Awarded by 1500 cash price and with a certificate in my college for 3rd place in Hackathon</p>
+                    <ul>
+                        <li><p>Completed 4 stars in JAVA HackerRank and 3 stars in SQL HackerRank</p></li>
+                        <li> <p>Awarded by 1500 cash price and with a certificate in my college for 3rd place in Hackathon</p></li>
+                    </ul>
                 </div>
 
                 <div className="hobbies section">
