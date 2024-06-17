@@ -3,7 +3,7 @@ import React from 'react';
 const Resume = () => {
     // Function to handle download
     const handleDownload = () => {
-        const resumePDFPath = "/path/to/V.T.BHARGAV_RESUME.pdf";
+        const resumePDFPath = "RESUME.pdf";
         // Create a new anchor element
         const element = document.createElement("a");
         // Set the HREF attribute to the PDF file path
