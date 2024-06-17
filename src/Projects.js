@@ -231,10 +231,14 @@ const Projects = () => {
                 <div>
                     <h3> <span className='react'>⚛</span> HOSPITAL MANAGEMENT SYSTEM USING REACT</h3>
                     <p><strong>Description: </strong> Crafted a robust Hospital Management System with React, seamlessly integrating APIs for data handling, and employing JavaScript (ES6+), HTML5, and CSS3 for dynamic user interfaces. Leveraged React Router for efficient navigation and Git for version control, ensuring collaborative development.</p>
+                    <a href='https://github.com/bhargavnanicaptain/HOSPTAL-MANAGEMENT-SYSTEM.git' className='a1' target='_blank'><button className='btn'>Github Source Code</button></a>
+                    <a href='https://hosptal-management-system-lxi0gphmo.vercel.app/'><button className='btn1'>React Site</button></a><br />
                 </div>
                 <div>
                     <h3> <span className='react'>⚛</span> PERSONAL FINANCE TRACKER USING REACT</h3>
                     <p><strong>Description: </strong> Developed a sleek Personal Finance Tracker with React, harnessing JavaScript (ES6+), HTML5, and CSS3 for intuitive interfaces. Integrated React Router for smooth navigation and incorporated Chart.js for dynamic data visualization. Utilized Git for version control, ensuring seamless collaboration.</p>
+                    <a href='https://github.com/bhargavnanicaptain/FINANCE-TRACKER-USING-REACT.git' className='a1' target='_blank'><button className='btn'>Github Source Code</button></a>
+                    <a href='https://finance-tracker-using-react-mjyww7l35.vercel.app/'><button className='btn1'>React Site</button></a><br />
                 </div>
             </div>
             <h3><i className="fa-regular fa-star"></i>  HOSPITAL MANAGEMENT SYSTEM:</h3>
