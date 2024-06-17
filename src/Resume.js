@@ -4,12 +4,12 @@ const Resume = () => {
     // Function to handle download
     const handleDownload = () => {
         // Replace 'resume.pdf' with the actual file name and extension of your resume
-        const resumeUrl = 'V.T.BHARGAV_RESUME.pdf';
+        const resumeUrl = 'THIRUMALA BHARGAV VALLAMKONDA_RESUME.pdf';
 
         // Create a temporary anchor element
         const link = document.createElement('a');
         link.href = resumeUrl;
-        link.download = 'V.T.BHARGAV_RESUME.pdf'; // Specify the file name users will see when downloading
+        link.download = 'THIRUMALA BHARGAV VALLAMKONDA_RESUME.pdf'; // Specify the file name users will see when downloading
 
         // Programmatically click the link to trigger the download
         document.body.appendChild(link);
