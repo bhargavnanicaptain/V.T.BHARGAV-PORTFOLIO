@@ -3,14 +3,13 @@ import React from 'react';
 const Resume = () => {
     // Function to handle download
     const handleDownload = () => {
-
         // Replace 'resume.pdf' with the actual file name and extension of your resume
-        const resumeUrl = 'E:\NODEJS\favoport\public\THIRUMALA BHARGAV VALLAMKONDA_RESUME.pdf';
+        const resumeUrl = 'V.T.BHARGAV_RESUME';
 
         // Create a temporary anchor element
         const link = document.createElement('a');
         link.href = resumeUrl;
-        link.download = 'THIRUMALA BHARGAV VALLAMKONDA_RESUME.pdf'; // Specify the file name users will see when downloading
+        link.download = 'V.T.BHARGAV_RESUME'; // Specify the file name users will see when downloading
 
         // Programmatically click the link to trigger the download
         document.body.appendChild(link);
