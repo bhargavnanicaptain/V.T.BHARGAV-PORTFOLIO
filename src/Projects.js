@@ -8,7 +8,7 @@ const Projects = () => {
                 color:white;
             }
             .react{
-            color:skyblue;
+            color:skyblue !important;
             }
             body{
                 background-color:#14213d;
