@@ -3,8 +3,9 @@ import React from 'react';
 const Resume = () => {
     // Function to handle download
     const handleDownload = () => {
+
         // Replace 'resume.pdf' with the actual file name and extension of your resume
-        const resumeUrl = 'THIRUMALA BHARGAV VALLAMKONDA_RESUME.pdf';
+        const resumeUrl = 'E:\NODEJS\favoport\public\THIRUMALA BHARGAV VALLAMKONDA_RESUME.pdf';
 
         // Create a temporary anchor element
         const link = document.createElement('a');
