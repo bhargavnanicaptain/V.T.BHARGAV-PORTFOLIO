@@ -226,11 +226,11 @@ const Projects = () => {
             <div className='projects section'>
                 <h2>REACT-BASED PROJECTS</h2>
                 <div>
-                    <p><strong>Project Title: </strong> HOSPITAL MANAGEMENT SYSTEM USING REACT</p>
+                    <h3> ⚛ HOSPITAL MANAGEMENT SYSTEM USING REACT</h3>
                     <p><strong>Description: </strong> Crafted a robust Hospital Management System with React, seamlessly integrating APIs for data handling, and employing JavaScript (ES6+), HTML5, and CSS3 for dynamic user interfaces. Leveraged React Router for efficient navigation and Git for version control, ensuring collaborative development.</p>
                 </div>
                 <div>
-                    <p><strong>Project Title: </strong>PERSONAL FINANCE TRACKER USING REACT</p>
+                    <h3> ⚛ PERSONAL FINANCE TRACKER USING REACT</h3>
                     <p><strong>Description: </strong> Developed a sleek Personal Finance Tracker with React, harnessing JavaScript (ES6+), HTML5, and CSS3 for intuitive interfaces. Integrated React Router for smooth navigation and incorporated Chart.js for dynamic data visualization. Utilized Git for version control, ensuring seamless collaboration.</p>
                 </div>
             </div>
