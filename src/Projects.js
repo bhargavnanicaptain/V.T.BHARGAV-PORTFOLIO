@@ -223,6 +223,17 @@ const Projects = () => {
             <h2>Projects Showcase:</h2>
             <p>Explore my portfolio below to learn more about each project, its objectives, technologies used, and key accomplishments. Feel free to reach out if you have any questions or would like to discuss potential collaborations.
             </p><br />
+            <div className='projects section'>
+                <h2>REACT-BASED PROJECTS</h2>
+                <div>
+                    <p><strong>Project Title: </strong> HOSPITAL MANAGEMENT SYSTEM USING REACT</p>
+                    <p><strong>Description: </strong> Crafted a robust Hospital Management System with React, seamlessly integrating APIs for data handling, and employing JavaScript (ES6+), HTML5, and CSS3 for dynamic user interfaces. Leveraged React Router for efficient navigation and Git for version control, ensuring collaborative development.</p>
+                </div>
+                <div>
+                    <p><strong>Project Title: </strong>PERSONAL FINANCE TRACKER USING REACT</p>
+                    <p><strong>Description: </strong> Developed a sleek Personal Finance Tracker with React, harnessing JavaScript (ES6+), HTML5, and CSS3 for intuitive interfaces. Integrated React Router for smooth navigation and incorporated Chart.js for dynamic data visualization. Utilized Git for version control, ensuring seamless collaboration.</p>
+                </div>
+            </div>
             <h3><i className="fa-regular fa-star"></i>  HOSPITAL MANAGEMENT SYSTEM:</h3>
             <p><b>Description: </b> The Hospital Management System represents a robust Java-based application meticulously crafted to optimize and simplify various administrative and operational tasks within a hospital environment. Its core functionalities revolve around efficient patient management, effective doctor management, and streamlined appointment booking processes.</p>
             <p>At the heart of this system lies the utilization of JDBC (Java Database Connectivity), a Java API that enables Java applications to interact with a relational database management system such as MySQL. By leveraging JDBC, the Hospital Management System ensures seamless communication with a MySQL database, facilitating the storage, retrieval, and management of critical patient and doctor information.</p><br />
