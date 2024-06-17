@@ -3,20 +3,21 @@ import React from 'react';
 const Resume = () => {
     // Function to handle download
     const handleDownload = () => {
-        // Replace 'resume.pdf' with the actual file name and extension of your resume
-        const resumeUrl = 'V.T.BHARGAV_RESUME.pdf';
-
-        // Create a temporary anchor element
-        const link = document.createElement('a');
-        link.href = resumeUrl;
-        link.download = 'V.T.BHARGAV_RESUME.pdf'; // Specify the file name users will see when downloading
-
-        // Programmatically click the link to trigger the download
-        document.body.appendChild(link);
-        link.click();
-
-        // Cleanup
-        document.body.removeChild(link);
+        const resumePDFPath = "/path/to/V.T.BHARGAV_RESUME.pdf";
+        // Create a new anchor element
+        const element = document.createElement("a");
+        // Set the HREF attribute to the PDF file path
+        element.href = resumePDFPath;
+        // Set the download attribute to specify the filename
+        element.download = "V.T.BHARGAV_RESUME.pdf"; // You can change the filename here
+        // Hide the element
+        element.style.display = "none";
+        // Append the element to the document body
+        document.body.appendChild(element);
+        // Trigger a click event on the element
+        element.click();
+        // Remove the element from the document body after the download starts
+        document.body.removeChild(element);
     };
 
     return (
